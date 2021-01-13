@@ -1,0 +1,177 @@
+/*-------------------------------NAVIGATEUR-------------------*/
+header
+{
+    background-color: #333;
+    width: 100%;
+    height: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+  
+li 
+  {
+    float: left;/*POUR QUE MES ONGLETS SOIT VERS LA GAUCHE*/
+}
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar img
+{
+    width: 60px;
+    float: left;
+}
+
+.LI_Left
+{
+float: right;
+}
+ /*-----------------------------BODY-----------------------------*/
+
+#container
+{
+    display: flex;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    padding-bottom: 150px;
+    width: 50%;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    
+}
+
+
+#test
+{
+    
+    background-color: rgb(213, 214, 216);
+
+}
+
+
+p
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#container2
+{
+    display: flex;
+    flex-direction: center;
+    justify-content: space-around;
+    background-color: rgb(37, 140, 236);
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 100px;
+}
+
+
+
+h1
+{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+#container1
+{
+    background-color: rgb(37, 140, 236);
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    
+}
+
+#container1 p
+{
+    color: black;
+    padding: 20px;
+}
+
+
+._start 
+{
+    text-align: center;
+    margin-top: 100px;
+}
+
+. 
+{
+display: block;
+background-color: orange;
+display:block;
+width:150px;
+line-height:50px;
+text-align:center;
+vertical-align:middle;
+color:white;
+text-decoration:none;
+}
+
+.text2
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.API, .DOC , .START
+{
+    background-color: rgb(24, 82, 136);
+    color: white;
+    font-size: larger;
+    padding: 20px;
+}
+.orange
+{
+background-color:orange;
+}
+
+#sections_boutons
+{
+    text-align: center;
+    font-size: larger;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+
+
+ /*-----------------------------FOOTER-----------------------------*/
+ 
+ footer {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: white;
+    padding: 14px 16px;
+  }
+
+footer a
+
+{
+    margin: 0;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+   
